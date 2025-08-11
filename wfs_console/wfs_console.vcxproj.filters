@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core" />
+    <Filter Include="io" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core\FileSystem_WFS.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="io\WinFile.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="wfs_console.cpp" />
+    <ClCompile Include="io\macFile.cpp">
+      <Filter>io</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\FileSystem_WFS.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\struct_wfs.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="io\IFile.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="io\WinFile.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="io\macFile.h">
+      <Filter>io</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

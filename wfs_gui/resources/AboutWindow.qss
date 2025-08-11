@@ -1,0 +1,39 @@
+/* Фон и основной шрифт */
+QWidget#AboutWindow {
+    background-color: #F5F5F5;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+}
+
+/* Заголовок окна */
+QWidget#AboutWindow QLabel#titleLabel {
+    font-size: 18pt;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #2979FF;
+}
+
+/* Основной текст */
+QWidget#AboutWindow QLabel#descriptionLabel {
+    font-size: 12pt;
+    color: #555555;
+    padding: 10px;
+    border: none;
+}
+
+/* Кнопка закрытия */
+QPushButton {
+    background-color: #2979FF;
+    color: white;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-size: 11pt;
+    border: none;
+    min-width: 80px;
+}
+QPushButton:hover {
+    background-color: #1565C0;
+}
+QPushButton:pressed {
+    background-color: #0D47A1;
+}
